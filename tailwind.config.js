@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': 'Montserrat'
+      },
+      colors: {
+        'cirlces': '#ffead1'
       }
     },
   },

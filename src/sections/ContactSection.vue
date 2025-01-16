@@ -2,7 +2,7 @@
     <!-- Contact section start -->
 	<section id="contact-section" class="px-12 lg:px-32 py-16 relative">
         <!-- Main text start -->
-		<h1 class="uppercase text-5xl mb-4 font-semibold ">
+		<h1 class="uppercase text-3xl mb-4">
 			Contact us
 		</h1>
 		<!-- Main text end -->
@@ -25,7 +25,7 @@
         <!-- Form end -->
 
         <!-- Circle start -->
-        <div class="bg-neutral-200 h-44 w-44 md:h-52 md:w-52 rounded-full absolute -top-20 left-0 mt-16 -z-20"></div>
+        <!-- <div class="cirlces bg-neutral-200 h-44 w-44 md:h-52 md:w-52 rounded-full absolute -top-20 left-0 mt-16 -z-20"></div> -->
         <!-- Circle end -->
 	</section>
 	<!-- Contact section end -->

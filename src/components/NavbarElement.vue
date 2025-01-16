@@ -1,10 +1,16 @@
 <template>
+
     <!-- Navbar start -->
-    <nav class="w-screen fixed bg-opacity-90 bg-white p-4 lg:px-20 flex justify-between z-50">
+    <nav class="w-screen fixed bg-opacity-60 bg-white p-4 lg:px-20 flex justify-between z-50">
 		<!-- Logo start -->
-		<div class="h-full flex flex-col justify-center">
-			<p class="tracking-widest font-semibold">LANDING</p>
-			<p class="tracking-widest font-light">PHOTOGRAPHY</p>
+		<div class=" flex justify-center items-center">
+		<!-- <div class="absolute left-0 right-0 md:flex flex-col items-center p-4 md:flex-row md:static md:shadow-none md:translate-y-0" role="menu" aria-expanded="false"> -->
+		
+		<!-- <div>
+			<p class="tracking-widest font-semibold">Raghvendra</p>
+			<p class="tracking-widest font-light">Singh</p>
+		</div> -->
+		<img src="@/assets/RS_logo_green.png" alt="img" style="width:50px; align-self: center;">
 		</div>
 		<!-- Logo end -->
 
@@ -15,22 +21,14 @@
 		<!-- Toggler end -->
 
 		<!-- Menu content start -->
-		<div class="absolute left-0 right-0 translate-y-16 bg-opacity-90 bg-white md:bg-none md:bg-opacity-0 shadow hidden md:flex flex-col gap-4 items-center p-4 md:flex-row md:static md:shadow-none md:translate-y-0" role="menu" aria-expanded="false">
+		<div class="absolute left-0 right-0 translate-y-16 bg-opacity-90 bg-white md:bg-none md:bg-opacity-0 shadow hidden md:flex flex-col gap-4 items-center p-4 md:flex-row md:static md:shadow-none md:translate-y-0 menu" role="menu" aria-expanded="false">
 			<!-- Links start -->
 			<a href="#" role="menuitem">
 				<p class="mx-4">Home</p>
 			</a>
 
-			<a href="#" role="menuitem">
-				<p class="mx-4">About</p>
-			</a>
-
-			<a href="#" role="menuitem">
-				<p class="mx-4">Explore</p>
-			</a>
-
 			<button class="btn" role="menuitem">
-				Contact us
+				About
 			</button>
 			<!-- Links end -->
 		</div>

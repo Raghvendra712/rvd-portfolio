@@ -1,11 +1,14 @@
 <template>
     <!-- Footer start -->
-    <div class="bg-stone-700 w-full flex justify-center items-center md:justify-evenly flex-col md:flex-row gap-8 p-8">
+    <div class="bg-stone-700 w-full flex justify-center items-center md:justify-evenly flex-col md:flex-row gap-2 p-8">
         <!-- Overview start -->
-        <div class="text-stone-100 text-center">
-            <p class="tracking-widest font-semibold text-stone-100">LANDING</p>
-            <p class="tracking-widest font-light text-stone-100">PHOTOGRAPHY</p>
-        </div>
+		<div class="flex gap-8">
+			<img src="@/assets/RS_logo_grey.png" alt="img" style="width:50px; align-self: center;">
+			<div class="text-stone-100 text-center">
+				<p class="tracking-widest font-semibold text-stone-100">Raghvendra</p>
+				<p class="tracking-widest font-light text-stone-100">Singh</p>
+			</div>
+		</div>
         <!-- Overview end -->
 
         <!-- Links start -->
